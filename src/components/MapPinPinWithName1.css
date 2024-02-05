@@ -1,0 +1,72 @@
+.indicator-icon8 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.amount14,
+.title15 {
+  position: relative;
+  letter-spacing: 0.44px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.amount14 {
+  width: 92px;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--headline-h5);
+  font-size: var(--body-title-size);
+  background-color: transparent;
+  height: 28px;
+  letter-spacing: 0.15px;
+  line-height: 28px;
+  color: var(--night-blue);
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.title-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrow-icon8 {
+  height: 18px;
+  width: 25.7px;
+  position: absolute;
+  margin: 0 !important;
+  right: 70px;
+  bottom: -12px;
+  object-fit: contain;
+  z-index: 1;
+}
+.map-pin-pin-with-name8,
+.tooltip9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.tooltip9 {
+  border-radius: var(--br-base);
+  background-color: var(--snow);
+  align-items: center;
+  padding: var(--padding-7xs) var(--padding-3xs);
+  position: relative;
+  gap: var(--gap-xs);
+}
+.map-pin-pin-with-name8 {
+  margin: 0 !important;
+  position: absolute;
+  right: -24px;
+  bottom: 137px;
+  box-shadow: var(--big-shadow);
+  align-items: flex-start;
+  padding: 0 var(--padding-6xs) var(--padding-xs) 0;
+  z-index: 4;
+  text-align: left;
+  font-size: var(--body-body-1-size);
+  color: var(--night-blue);
+  font-family: var(--headline-h5);
+}
