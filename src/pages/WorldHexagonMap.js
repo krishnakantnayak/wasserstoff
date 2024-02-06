@@ -59,11 +59,11 @@ const WorldHexagonMap = () => {
                             />
                           </div>
                         </div>
-                        <MapPinPinWithName1
+                        {/* <MapPinPinWithName1
                           indicator="/indicator-3.svg"
                           title="Shanghai"
                           amountPlaceholder="239,570,110"
-                        />
+                        /> */}
                       </div>
                     </div>
                   </div>
