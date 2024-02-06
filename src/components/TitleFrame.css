@@ -3,7 +3,7 @@
   flex: 1;
   position: relative;
   border-radius: 50%;
-  border: 4px solid var(--lavender);
+  /* border: 4px solid var(--lavender); */
   z-index: 1;
 }
 .span {
@@ -84,6 +84,7 @@
   padding: 0 var(--padding-xs) 0 0;
   box-sizing: border-box;
   gap: var(--gap-lg);
+  top:.1em;
 }
 .name13 {
   letter-spacing: 0.15px;
