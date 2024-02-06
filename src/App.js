@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import WorldHexagonMap from "./pages/WorldHexagonMap";
 import BubbleChart from "./pages/BubbleChart";
-import WorldHexagonMap1 from "./pages/WorldHexagonMap1";
+
 
 function App() {
   const action = useNavigationType();
@@ -57,7 +57,6 @@ function App() {
     <Routes>
       <Route path="/" element={<WorldHexagonMap />} />
       <Route path="/bubble-chart" element={<BubbleChart />} />
-      <Route path="/world-hexagon-map" element={<WorldHexagonMap1 />} />
     </Routes>
   );
 }
